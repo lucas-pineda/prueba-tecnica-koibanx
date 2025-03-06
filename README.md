@@ -15,7 +15,7 @@ Se implementó una solución para la validación y carga de archivos en formato 
 4. **xlsx** como dependencia para el procesamiento de archivos en formato `.xlsx`.
 5. En la carpeta `postman`, se encuentra la colección que permite conectarse al API del backend.
 
-![Configuración del Socket](postman/Ejemplo-Configuracion-Socket.png)
+![Configuración del Socket](postman/Collection-postman.png)
 
 6. La carpeta `templates` contiene archivos de ejemplo para casos de validación correcta e incorrecta.
 7. La carpeta `uploads` almacena todos los archivos cargados a través del backend para su posterior procesamiento.
