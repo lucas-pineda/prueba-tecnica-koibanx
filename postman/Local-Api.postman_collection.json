@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "4e059d74-af4b-4180-b9ef-786b2d7ca58f",
+		"name": "Local-Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10713198"
+	},
+	"item": [
+		{
+			"name": "tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/tasks",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": [
+								"/C:/Users/LUCAS/Downloads/PRUEBA-CARGA - copia - copia.xlsx",
+								"/C:/Users/LUCAS/Downloads/PRUEBA-CARGA - copia (2).xlsx",
+								"/C:/Users/LUCAS/Downloads/PRUEBA-CARGA - copia.xlsx",
+								"/C:/Users/LUCAS/Downloads/PRUEBA-CARGA.xlsx"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3001/tasks/upload",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"tasks",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
