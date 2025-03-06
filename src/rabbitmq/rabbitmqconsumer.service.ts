@@ -50,7 +50,7 @@ try {
     this.notificationsGateway.notifyTaskProcessed(task.id,`Se terminado el procesamiento de la tarea No ${task.id}, se encontraron ${errors.length}, estado : error`, errors);
     }else{
     await this.tasksService.update(task.id, {status:'done'});
-    this.notificationsGateway.notifyTaskProcessed(task.id,`Se terminado el procesamiento de la tarea No ${task.id}, estado : done`,processedData);
+    this.notificationsGateway.notifyTaskProcessed(task.id,`Se terminado el procesamiento de la tarea No ${task.id}, estado : done`,[],processedData);
     }
     console.log(`📂 Se termino procesamiento de archivo desde RabbitMQ: ${task.id}`);
   } catch (error) {

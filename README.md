@@ -34,7 +34,7 @@ La aplicación cuenta con cuatro módulos principales:
 
 Este proyecto facilita la carga, validación y procesamiento de archivos Excel de manera eficiente y escalable, asegurando la entrega de notificaciones en tiempo real sobre el estado del proceso.
 
-![Configuración del Socket](postman/resultadopruebas.png)
+![Configuración del Socket](postman/resultadopruebasv2.png)
 
 
 
